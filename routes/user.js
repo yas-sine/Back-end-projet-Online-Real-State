@@ -7,12 +7,12 @@ var config = require('../config/database');
 
 
 router.post('/signup', function(req, res) {
-    if (!req.body.name || !req.body.password) {
+    if (!req.body.nom || !req.body.password) {
         res.json({success: false, msg: 'Please pass name and password.'});
     } else {
         var newUser = new User({
-            name: req.body.name,
-            lastname: req.body.lastname,
+            nom: req.body.nom,
+            prenom: req.body.prenom,
             email: req.body.email,
             password: req.body.password
         });
@@ -31,7 +31,7 @@ router.post('/signup', function(req, res) {
 
 router.post('/authenticate', function(req, res) {
     User.findOne({
-        name: req.body.name
+        nom: req.body.nom
     }, function(err, user) {
         if (err)
             res.send(err);
