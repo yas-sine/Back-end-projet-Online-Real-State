@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var Schema=mongoose.Schema;
 
 var immobilierSchema = new Schema({
-    Id: {type: Number},
+    Id: {type: String, unique: true,},
     titre: {type: String, maxlength: 50},
     description: String,
     categorie: String,

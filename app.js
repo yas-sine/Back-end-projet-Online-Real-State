@@ -8,16 +8,23 @@ var config = require('./config/database'); // get db config file
 var cors = require('cors');
 var morgan = require('morgan');
 
+
 var app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+// Bring in defined Passport Strategy
+
+
 
 app.use(cors());
 app.use(morgan('dev'));
 
 
+
 mongoose.connect(config.database);
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+
 
 
 
