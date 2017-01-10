@@ -46,14 +46,7 @@ router.route('/immobil/:titre').get(function(req, res) {
     //res.end(JSON.stringify(query));
 });
 
-/*router.route('/immobiliers/:categorie').get(function(req, res) {
-    Immobilier.find({categorie: req.params.categorie}, function (err, immobiliers) {
-        if (err) {
-            return console.error(err);
-        }
-        res.json(immobiliers);
-    });
-});*/
+
 
 
 

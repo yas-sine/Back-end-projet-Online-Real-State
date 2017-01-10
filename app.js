@@ -10,6 +10,7 @@ var morgan = require('morgan');
 
 
 var app = express();
+require('./fixtures');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
