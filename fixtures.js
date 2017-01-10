@@ -45,7 +45,7 @@ fixtures.clearAndLoad({
         },
         {
             "Id":"4",
-            "categorie": "Villa",
+            "categorie": "Comerce",
             "datedepos": "20 Mars 15:03",
             "description": "Rare. Belle maison à rénover, de 176m avec 54 m² en sous-sol. Possibilité de diviser en appartements ou grande famille. Situé en plein coeur de Paris entre le parc de la villette et les Buttes Chaumont dans une rue calme. Cette maison très lumineuse est composé de plusieurs niveaux, au premier niveau, elle dispose d'une grande entrée, une cuisine et un beau séjour avec belle hauteur sous plafond et beaucoup d'ouvertures. Au R + 1, une grande chambre double, une seconde chambre, une salle de bain, WC séparé et un débarras. Au R + 2,3 autres chambres, une salle de bain avec WC. Bel espace de 54 m² en sous-sol. Terrasse + jardinet. Possibilité parking dans la résidence. Nous contacter. ",
             "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsB40z9TvYTCLrDv2NtDmlMXtFa5_nxzyAlnPZl7iGvVyvw1_3w",
